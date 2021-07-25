@@ -1,0 +1,13 @@
+{
+  "manufacturer": {
+    "name": "Baxter Oncology GmbH"
+  },
+  "products": [
+    {"code": "39478211000001100", "term": "Generic COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials", "type": "VMP"},
+    {"code": "39472811000001101", "term": "Generic COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials 10 dose", "type": "VMPP"},
+    {"code": "39472911000001106", "term": "Generic COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials 100 dose 10 x 10 dose vials", "type": "VMPP"},
+    {"code": "39473011000001103", "term": "COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH)", "type": "AMP"},
+    {"code": "39473111000001102", "term": "COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH) 10 dose", "type": "AMPP"},
+    {"code": "39473211000001108", "term": "COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Baxter Oncology GmbH) 100 dose 10 x 10 dose vials", "type": "AMPP"}
+  ]
+}

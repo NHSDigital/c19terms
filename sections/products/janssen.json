@@ -1,0 +1,13 @@
+{
+  "manufacturer": {
+    "name": "Janssen-Cilag Ltd"
+  },
+  "products": [
+    {"code": "39233911000001100", "term": "Generic  COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose solution for injection multidose vials", "type": "VMP"},
+    {"code": "39230211000001104", "term": "COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose solution for injection multidose vials (Janssen-Cilag Ltd)", "type": "AMP"},
+    {"code": "39230011000001109", "term": "Generic COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose solution for injection multidose vials 5 dose", "type": "VMPP"},
+    {"code": "39230111000001105", "term": "Generic COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose solution for injection multidose vials 50 dose", "type": "VMPP"},
+    {"code": "39230311000001107", "term": "COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose solution for injection multidose vials (Janssen-Cilag Ltd) 5 dose", "type": "AMPP"},
+    {"code": "39230411000001100", "term": "COVID-19 Vaccine Janssen (Ad26.COV2-S [recombinant]) 0.5ml dose solution for injection multidose vials (Janssen-Cilag Ltd) 50 dose", "type": "AMPP"}
+  ]
+}

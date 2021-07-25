@@ -1,0 +1,54 @@
+name: tag
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: build-and-tag
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8.2'
+
+      - name: install poetry
+        uses: Gr1N/setup-poetry@v7
+
+      - name: Set SPEC_VERSION env var
+        run: echo ::set-env name=SPEC_VERSION::"v$(date -u --iso-8601=minutes | cut -c-16 | sed -e 's/[ :T\+\-]/./g')"
+        env:
+          ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+
+      - name: build terms
+        run: |
+          make install
+          make release
+
+      - name: create release
+        id: create_release
+        uses: actions/create-release@v1
+        continue-on-error: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ env.SPEC_VERSION }}
+          release_name: ${{ env.SPEC_VERSION }}
+
+
+      - name: upload terms
+        id: upload-release-asset
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: dist/terms.json
+          asset_name: terms.json
+          asset_content_type: application/json

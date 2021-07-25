@@ -1,0 +1,13 @@
+{
+  "manufacturer": {
+    "name": "Moderna, Inc"
+  },
+  "products": [
+    {"code": "39326811000001106", "term": "Generic COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5mL dose dispersion for injection multidose vials", "type": "VMP"},
+    {"code": "39326911000001101", "term": "COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5mL dose dispersion for injection multidose vials (Moderna, Inc)", "type": "AMP"},
+    {"code": "39375311000001106", "term": "Generic COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5ml dose dispersion for injection multidose vials 10 dose", "type": "VMPP"},
+    {"code": "39326611000001107", "term": "Generic COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5ml dose dispersion for injection multidose vials 100 dose 10 x 10 dose vials", "type": "VMPP"},
+    {"code": "39375411000001104", "term": "COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5ml dose dispersion for injection multidose vials (Moderna, Inc) 10 dose", "type": "AMPP"},
+    {"code": "39327011000001102", "term": "COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5ml dose dispersion for injection multidose vials (Moderna, Inc) 100 dose 10 x 10 dose vials", "type": "AMPP"}
+  ]
+}

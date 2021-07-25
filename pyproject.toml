@@ -1,0 +1,22 @@
+[project]
+python = "^3.8"
+
+[tool.poetry]
+name = "c19-terms"
+version = "0.0.1-alpha"
+description = ""
+authors = []
+readme = 'README.md'
+license = "MIT"
+repository = "https://github.com/NHSDigital/c19terms"
+homepage = ""
+keywords = ["healthcare", "uk", "nhs", "covid19", "snomed"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jq = "^1.1.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.1.2"
+
+[tool.poetry.scripts]

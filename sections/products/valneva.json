@@ -1,0 +1,13 @@
+{
+  "manufacturer": {
+    "name": "Valneva UK Ltd"
+  },
+  "products": [
+    {"code": "39375211000001103", "term": "Generic COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5mL dose suspension for injection multidose vials", "type": "VMP"},
+    {"code": "39373511000001104", "term": "COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5mL dose suspension for injection multidose vials (Valneva UK Ltd)", "type": "AMP"},
+    {"code": "39373011000001107", "term": "Generic COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5mL dose suspension for injection multidose vials 10 dose", "type": "VMPP"},
+    {"code": "39373111000001108", "term": "Generic COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5mL dose suspension for injection multidose vials 100 dose 10 x 10 dose vials", "type": "VMPP"},
+    {"code": "39374411000001100", "term": "COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5mL dose suspension for injection multidose vials (Valneva UK Ltd) 10 dose", "type": "AMPP"},
+    {"code": "39374711000001106", "term": "Generic COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5mL dose suspension for injection multidose vials (Valneva UK Ltd) 100 dose 10 x 10 dose vials", "type": "AMPP"}
+  ]
+}

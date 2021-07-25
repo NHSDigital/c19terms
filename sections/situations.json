@@ -1,0 +1,14 @@
+{
+  "1324731000000105": "SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) immunisation course not indicated",
+  "1324761000000100": "SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) immunisation course contraindicated",
+  "1324811000000107": "SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) immunisation course declined",
+  "1324821000000101": "SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) immunisation course not done",
+  "1324851000000106": "SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) immunisation course started",
+  "1324861000000109": "SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) immunisation course abandoned",
+  "1324721000000108": "SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination dose declined",
+  "1324741000000101": "SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination first dose declined",
+  "1324751000000103": "SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination second dose declined",
+  "1324771000000107": "SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination dose not given",
+  "1324781000000109": "SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination first dose not given",
+  "1324791000000106": "SARS-CoV-2 (severe acute respiratory syndrome coronavirus 2) vaccination second dose not given"
+}

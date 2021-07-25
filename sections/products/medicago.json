@@ -1,0 +1,13 @@
+{
+  "manufacturer": {
+    "name": "Medicago Inc"
+  },
+  "products": [
+    {"code": "39828011000001104", "term": "Generic COVID-19 Vaccine Medicago (CoVLP) 3.75micrograms/0.5ml dose emulsion for injection multidose vials", "type": "VMP"},
+    {"code": "39826211000001108", "term": "Generic COVID-19 Vaccine Medicago (CoVLP) 3.75micrograms/0.5ml dose emulsion for injection multidose vials 10 dose 10x0.5ml (0.25ml+0.25ml) dose", "type": "VMPP"},
+    {"code": "39826411000001107", "term": "Generic COVID-19 Vaccine Medicago (CoVLP) 3.75micrograms/0.5ml dose emulsion for injection multidose vials 100 dose 100x0.5ml (0.25ml+0.25ml) dose", "type": "VMPP"},
+    {"code": "39826711000001101", "term": "COVID-19 Vaccine Medicago (CoVLP) 3.75micrograms/0.5ml dose emulsion for injection multidose vials (Medicago Inc)", "type": "AMP"},
+    {"code": "39826911000001104", "term": "COVID-19 Vaccine Medicago (CoVLP) 3.75micrograms/0.5ml dose emulsion for injection multidose vials (Medicago Inc) 10 dose 10x0.5ml (0.25ml+0.25ml) dose", "type": "AMPP"},
+    {"code": "39827011000001100", "term": "COVID-19 Vaccine Medicago (CoVLP) 3.75micrograms/0.5ml dose emulsion for injection multidose vials (Medicago Inc) 100 dose 100x0.5ml (0.25ml+0.25ml) dose", "type": "AMPP"}
+  ]
+}
