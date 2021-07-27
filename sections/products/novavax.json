@@ -1,6 +1,20 @@
 {
+  "name": {
+    "display": "Covid-19 Vaccine Novavax",
+    "eu": {
+      "display": "Vaccine Trial"
+    }
+  },
   "manufacturer": {
-    "name": "Baxter Oncology GmbH"
+    "display": "Baxter Oncology GmbH",
+    "eu": {
+      "code": "ORG-100032020",
+      "display": "Novavax CZ AS"
+    }
+  },
+  "prophylaxis": {
+    "code": "J07BX03",
+    "display": "Covid-19 Vaccines"
   },
   "products": [
     {"code": "39478211000001100", "term": "Generic COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials", "type": "VMP"},

@@ -1,6 +1,21 @@
 {
+  "name": {
+    "display": "Covid-19 Vaccine Moderna",
+    "eu": {
+      "display": "COVID-19 Vaccine Moderna",
+      "code": "EU/1/20/1507"
+    }
+  },
   "manufacturer": {
-    "name": "Moderna, Inc"
+    "display": "Moderna, Inc",
+    "eu": {
+      "code": "ORG-100031184",
+      "display": "Moderna Biotech Spain S.L"
+    }
+  },
+  "prophylaxis": {
+    "code": "1119349007",
+    "display": "SARS Cov-2 mRNA Vaccine"
   },
   "products": [
     {"code": "39326811000001106", "term": "Generic COVID-19 mRNA (nucleoside modified) Vaccine Moderna 0.1mg/0.5mL dose dispersion for injection multidose vials", "type": "VMP"},

@@ -1,6 +1,20 @@
 {
+  "name": {
+    "display": "Covid-19 Vaccine Valneva",
+    "eu": {
+      "display": "Vaccine Trial"
+    }
+  },
   "manufacturer": {
-    "name": "Valneva UK Ltd"
+    "display": "Valneva UK Ltd",
+    "eu": {
+      "code": "ORG-100002068",
+      "display": "Valneva Sweden AB"
+    }
+  },
+  "prophylaxis": {
+    "code": "J07BX03",
+    "display": "Covid-19 Vaccines"
   },
   "products": [
     {"code": "39375211000001103", "term": "Generic COVID-19 Vaccine Valneva (inactivated adjuvanted whole virus) 40antigen units/0.5mL dose suspension for injection multidose vials", "type": "VMP"},

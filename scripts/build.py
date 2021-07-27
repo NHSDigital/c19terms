@@ -35,6 +35,7 @@ def main(base_dir):
         vmp = None
         amp = None
         manufacturer = products_and_manufacturer['manufacturer']
+        name = products_and_manufacturer['name']
         product_set = {}
         for product in products_and_manufacturer['products']:
 
@@ -55,6 +56,7 @@ def main(base_dir):
                 amp = product
 
             product_set[snomed_code] = {
+                "name": name,
                 "term": product["term"],
                 "type": product_type,
                 "manufacturer": manufacturer,
