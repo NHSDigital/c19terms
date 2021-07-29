@@ -3,12 +3,20 @@ import os
 import glob
 import json
 import shutil
+import re
 
 
 def main(base_dir):
     all_terms = build_terms(base_dir)
     prepare_pip_package(base_dir, all_terms)
     prepare_npm_package(base_dir, all_terms)
+
+
+def get_release_version():
+    version = f'{os.environ["RELEASE_VERSION"]}'
+    if not re.match(r'^\d+\.\d+\.\d+$', version):
+        raise Exception(f'Invalid tag name {version}. Tag name must be: number.number.number')
+    return version
 
 
 def prepare_pip_package(base_dir, all_terms):
@@ -21,7 +29,7 @@ def prepare_npm_package(base_dir, all_terms):
 
     package_json = {
         'name': 'covid-19-terms',
-        'version': f'{os.environ["RELEASE_VERSION"]}',
+        'version': get_release_version(),
         'description': 'JSON COVID SNOMED codes from "COVID-19 Vaccination Codes"',
         'main': 'dist/index.js',
         'files': [
