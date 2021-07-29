@@ -10,7 +10,7 @@ jobs:
     name: build-and-publish
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: checkout
         uses: actions/checkout@v2
 
       - name: setup python
@@ -28,7 +28,7 @@ jobs:
         uses: Gr1N/setup-poetry@v7
 
       - name: set package version
-        run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\//}
+        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
 
       - name: build terms
         run: |

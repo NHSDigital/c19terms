@@ -21,7 +21,7 @@ def prepare_npm_package(base_dir, all_terms):
 
     package_json = {
         'name': 'covid-19-terms',
-        'version': f'{os.environ["TAG_VERSION"]}',
+        'version': f'{os.environ["RELEASE_VERSION"]}',
         'description': 'JSON COVID SNOMED codes from "COVID-19 Vaccination Codes"',
         'main': 'dist/index.js',
         'files': [
