@@ -9,11 +9,11 @@ guard-%:
 install:
 	poetry install
 
-clean:
-	rm -rf dist
+build-py:
+	cd pip && python setup.py sdist
 
-release: clean
-	mkdir -p dist
-	poetry run scripts/build.py > dist/terms.json
+release:
+	poetry run scripts/build.py
+	make build-py
 
 dist: release

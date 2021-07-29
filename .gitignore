@@ -12,6 +12,10 @@
 build/
 dist/
 
+# Python packaging
+pip/covid_19_terms/terms.json
+covid_19_terms.egg-info
+
 # Python
 __pycache__
 *.pyc
@@ -21,5 +25,8 @@ __pycache__
 .venv
 **/.pytest_cache/
 
-#Node
+# Node packaging
+npm/package.json
+
+# Node
 **/node_modules
