@@ -8,6 +8,7 @@ import re
 
 def main(base_dir):
     all_terms = build_terms(base_dir)
+    prepare_github_release(base_dir, all_terms)
     prepare_pip_package(base_dir, all_terms)
     prepare_npm_package(base_dir, all_terms)
 
@@ -17,6 +18,12 @@ def get_release_version():
     if not re.match(r'^\d+\.\d+\.\d+$', version):
         raise Exception(f'Invalid tag name {version}. Tag name must be: number.number.number')
     return version
+
+
+def prepare_github_release(base_dir, all_terms):
+    delete_directory(os.path.join(base_dir, 'dist'))
+    os.mkdir(os.path.join(base_dir, 'dist'))
+    write_json_file(os.path.join(base_dir, 'dist', 'terms.json'), all_terms)
 
 
 def prepare_pip_package(base_dir, all_terms):
