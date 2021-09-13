@@ -2,10 +2,67 @@
 import os
 import glob
 import json
+import shutil
+import re
 
 
 def main(base_dir):
+    all_terms = build_terms(base_dir)
+    prepare_github_release(base_dir, all_terms)
+    prepare_pip_package(base_dir, all_terms)
+    prepare_npm_package(base_dir, all_terms)
 
+
+def get_release_version():
+    version = f'{os.environ["RELEASE_VERSION"]}'
+    if not re.match(r'^\d+\.\d+\.\d+$', version):
+        raise Exception(f'Invalid tag name {version}. Tag name must be: number.number.number')
+    return version
+
+
+def prepare_github_release(base_dir, all_terms):
+    delete_directory(os.path.join(base_dir, 'dist'))
+    os.mkdir(os.path.join(base_dir, 'dist'))
+    write_json_file(os.path.join(base_dir, 'dist', 'terms.json'), all_terms)
+
+
+def prepare_pip_package(base_dir, all_terms):
+    delete_directory(os.path.join(base_dir, 'pip', 'dist'))
+    write_json_file(os.path.join(base_dir, 'pip', 'covid_19_terms', 'terms.json'), all_terms)
+
+
+def prepare_npm_package(base_dir, all_terms):
+    delete_directory(os.path.join(base_dir, 'npm', 'dist'))
+
+    package_json = {
+        'name': 'covid-19-terms',
+        'version': get_release_version(),
+        'description': 'JSON COVID SNOMED codes from "COVID-19 Vaccination Codes"',
+        'main': 'dist/index.js',
+        'files': [
+            'dist/*'
+        ],
+        'scripts': {},
+        'license': 'MIT'
+    }
+
+    shutil.copytree(os.path.join(base_dir, 'npm', 'src'), os.path.join(base_dir, 'npm', 'dist'))
+
+    write_json_file(os.path.join(base_dir, 'npm', 'package.json'), package_json)
+    write_json_file(os.path.join(base_dir, 'npm', 'dist', 'terms.json'), all_terms)
+
+
+def delete_directory(dir_path):
+    if os.path.isdir(dir_path):
+        shutil.rmtree(dir_path)
+
+
+def write_json_file(filepath, data):
+    with open(filepath, 'w') as f:
+        f.write(json.dumps(data, indent=2))
+
+
+def build_terms(base_dir):
     all_terms = {}
     sections_dir = os.path.join(base_dir, 'sections')
 
@@ -75,7 +132,7 @@ def main(base_dir):
 
     all_terms['products'] = products
 
-    print(json.dumps(all_terms, indent=2))
+    return all_terms
 
 
 if __name__ == "__main__":

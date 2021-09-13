@@ -1,16 +1,16 @@
-name: tag
+name: publish package
 
 on:
   push:
-    branches:
-      - master
+    tags:
+      - '*'
 
 jobs:
   build:
-    name: build-and-tag
+    name: build-and-publish
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: checkout
         uses: actions/checkout@v2
 
       - name: setup python
@@ -18,11 +18,20 @@ jobs:
         with:
           python-version: '3.8.2'
 
+      - name: setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+          registry-url: 'https://registry.npmjs.org'
+
       - name: install poetry
         uses: Gr1N/setup-poetry@v7
 
-      - name: Set SPEC_VERSION env var
-        run: echo ::set-env name=SPEC_VERSION::"v$(date -u --iso-8601=minutes | cut -c-16 | sed -e 's/[ :T\+\-]/./g')"
+      - name: set package version
+        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+
+      - name: set SPEC_VERSION env var
+        run: echo ::set-env name=SPEC_VERSION::"v$(date -u --iso-8601=minutes | cut -c-16 | sed -e 's/[ :T\+\-]/./g')-$RELEASE_VERSION"
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: true
 
@@ -38,9 +47,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ env.SPEC_VERSION }}
+          tag_name: ${{ env.RELEASE_VERSION }}
           release_name: ${{ env.SPEC_VERSION }}
-
 
       - name: upload terms
         id: upload-release-asset
@@ -52,3 +60,18 @@ jobs:
           asset_path: dist/terms.json
           asset_name: terms.json
           asset_content_type: application/json
+
+      - name: publish npm package
+        run: |
+          cd npm
+          npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: publish pip package
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          user: __token__
+          password: ${{ secrets.PYPI_API_TOKEN }}
+          packages_dir: pip/dist/
+
