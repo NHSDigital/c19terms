@@ -37,7 +37,7 @@ def prepare_npm_package(base_dir, all_terms):
     package_json = {
         'name': 'covid-19-terms',
         'version': get_release_version(),
-        'description': 'JSON COVID SNOMED codes from "COVID-19 Vaccination Codes"',
+        'description': 'UK JSON COVID SNOMED CT codes from "COVID-19 Vaccination Codes" https://hscic.kahootz.com/connect.ti/t_c_home/view?objectId=16878800 ',
         'main': 'dist/index.js',
         'files': [
             'dist/*'
