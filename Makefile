@@ -10,7 +10,9 @@ install:
 	poetry install
 
 build-py:
-	cd pip && python setup.py sdist
+	cd pip; \
+	sed -i -r "s/__version__\s+=\s(\"|').*?(\"|')/__version__ = '${RELEASE_VERSION}'/1" covid_19_terms/__init__.py; \
+ 	python setup.py sdist
 
 release:
 	poetry run scripts/build.py
