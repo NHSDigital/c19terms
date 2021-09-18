@@ -12,5 +12,7 @@ setup(
     },
     package_data={
         'covid_19_terms': ['terms.json']
-    }
+    },
+    setup_requires=["wheel"]
+
 )
