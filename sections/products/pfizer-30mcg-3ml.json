@@ -21,8 +21,8 @@
     {"code": "39116111000001100", "term": "Generic Comirnaty COVID-19 mRNA Vaccine 30micrograms/0.3ml dose concentrate for dispersion for injection multidose vials", "type": "VMP"},
     {"code": "39115611000001103", "term": "Comirnaty COVID-19 mRNA Vaccine 30micrograms/0.3ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)", "type": "AMP"},
     {"code": "39115311000001108", "term": "Generic Comirnaty COVID-19 mRNA Vaccine 30micrograms/0.3ml dose concentrate for dispersion for injection multidose vials 6 dose", "type": "VMPP"},
-    {"code": "39214411000001100", "term": "Generic Comirnaty COVID-19 mRNA Vaccine 30micrograms/0.3ml dose concentrate for dispersion for injection multidose vials 1170 dose – 195 x 6 dose vials", "type": "VMPP"},
+    {"code": "39214411000001100", "term": "Generic Comirnaty COVID-19 mRNA Vaccine 30micrograms/0.3ml dose concentrate for dispersion for injection multidose vials 1170 dose - 195 x 6 dose vials", "type": "VMPP"},
     {"code": "39115711000001107", "term": "Comirnaty COVID-19 mRNA Vaccine 30micrograms/0.3ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd) 6 dose", "type": "AMPP"},
-    {"code": "39214511000001101", "term": "Comirnaty COVID-19 mRNA Vaccine 30micrograms/0.3ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd) 1170 dose – 195 x 6 dose vials", "type": "AMPP"}
+    {"code": "39214511000001101", "term": "Comirnaty COVID-19 mRNA Vaccine 30micrograms/0.3ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd) 1170 dose - 195 x 6 dose vials", "type": "AMPP"}
   ]
 }

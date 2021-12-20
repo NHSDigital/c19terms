@@ -1,0 +1,26 @@
+{
+  "name": {
+    "display": "CoronaVac",
+    "eu": {
+      "display": "CoronaVac",
+      "code": "CoronaVac"
+    }
+  },
+  "manufacturer": {
+    "display": "Sinovac Biotech",
+    "eu": {
+      "code": "Sinovac-Biotech",
+      "display": "Sinovac Biotech"
+    }
+  },
+  "prophylaxis": {
+    "code": "J07BX03",
+    "display": "Covid-19 Vaccines"
+  },
+  "products": [
+    {"code": "40329811000001103", "term": "Generic CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials", "type": "VMP"},
+    {"code": "40306411000001101", "term": "CoronaVac COVID-19 Vaccine 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences)", "type": "AMP"},
+    {"code": "40306211000001100", "term": "Generic CoronaVac COVID-19 Vaccine (adjuvanted) 600U/0.5ml dose suspension for injection vials 1 dose", "type": "VMPP"},
+    {"code": "40306511000001102", "term": "CoronaVac COVID-19 Vaccine 600U/0.5ml dose suspension for injection vials (Sinovac Life Sciences) 1 dose", "type": "AMPP"}
+  ]
+}

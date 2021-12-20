@@ -1,0 +1,26 @@
+{
+  "name": {
+    "display": "Covaxin",
+    "eu": {
+      "display": "Covaxin (also known as BBV152 A, B, C)",
+      "code": "Covaxin"
+    }
+  },
+  "manufacturer": {
+    "display": "Bharat Biotech",
+    "eu": {
+      "code": "Bharat-Biotech",
+      "display": "Bharat Biotech"
+    }
+  },
+  "prophylaxis": {
+    "code": "J07BX03",
+    "display": "Covid-19 Vaccines"
+  },
+  "products": [
+    {"code": "40335411000001100", "term": "Generic COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection vials", "type": "VMP"},
+    {"code": "40332711000001102", "term": "COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection vials (Bharat Biotech International Ltd)", "type": "AMP"},
+    {"code": "40332611000001106", "term": "Generic COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection vials 1 dose", "type": "VMPP"},
+    {"code": "40332811000001105", "term": "COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection vials (Bharat Biotech International Ltd) 1 dose", "type": "AMPP"}
+  ]
+}

@@ -19,3 +19,7 @@ release:
 	make build-py
 
 dist: release
+
+
+products-as-dict:
+	cat dist/terms.json | jq '[.products | to_entries[] | {key: .key, value: .value.term}] | from_entries'
