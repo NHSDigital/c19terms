@@ -1,0 +1,26 @@
+{
+  "name": {
+    "display": "AstraZeneca",
+    "eu": {
+      "display": "Vaxzevria",
+      "code": "EU/1/21/1529"
+    }
+  },
+  "manufacturer": {
+    "display": "AstraZeneca",
+    "eu": {
+      "code": "ORG-100001699",
+      "display": "AstraZeneca AB"
+    }
+  },
+  "prophylaxis": {
+    "code": "1119305005",
+    "display": "SARS Cov-2 Antigen Vaccine"
+  },
+  "products": [
+    {"code": "40411511000001102", "term": "Generic COVID-19 Vaccine AZD2816 AstraZeneca (ChAdOx1 nCOV-19) 3.5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials", "type": "VMP"},
+    {"code": "40402411000001109", "term": "COVID-19 Vaccine AZD2816 AstraZeneca (ChAdOx1 nCOV-19) 3.5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (AstraZeneca AB)", "type": "AMP"},
+    {"code": "40402311000001102", "term": "Generic COVID-19 Vaccine AZD2816 AstraZeneca (ChAdOx1 nCOV-19) 3.5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials x 10 dose", "type": "VMPP"},
+    {"code": "40402911000001101", "term": "COVID-19 Vaccine AZD2816 AstraZeneca (ChAdOx1 nCOV-19) 3.5x10,000,000,000 viral particles/0.5ml dose solution for injection multidose vials x 10 dose", "type": "AMPP"}
+  ]
+}

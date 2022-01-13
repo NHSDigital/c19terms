@@ -1,0 +1,28 @@
+{
+  "name": {
+    "display": "Covaxin",
+    "eu": {
+      "display": "Covaxin (also known as BBV152 A, B, C)",
+      "code": "Covaxin"
+    }
+  },
+  "manufacturer": {
+    "display": "Bharat Biotech",
+    "eu": {
+      "code": "Bharat-Biotech",
+      "display": "Bharat Biotech"
+    }
+  },
+  "prophylaxis": {
+    "code": "J07BX03",
+    "display": "Covid-19 Vaccines"
+  },
+  "products": [
+    {"code": "40335311000001107", "term": "Generic COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection multidose vials", "type": "VMP"},
+    {"code": "40332311000001101", "term": "COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection multidose vials (Bharat Biotech International Ltd)", "type": "AMP"},
+    {"code": "40332111000001103", "term": "Generic COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection multidose vials 10 dose", "type": "VMPP"},
+    {"code": "40332211000001109", "term": "Generic COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection multidose vials 20 dose", "type": "VMPP"},
+    {"code": "40332411000001108", "term": "COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection multidose vials (Bharat Biotech International Ltd) 10 dose", "type": "AMPP"},
+    {"code": "40332511000001107", "term": "COVID-19 Vaccine Covaxin (NIV-2020-770 inactivated) 6micrograms/0.5ml dose suspension for injection multidose vials (Bharat Biotech International Ltd) 20 dose", "type": "AMPP"}
+  ]
+}

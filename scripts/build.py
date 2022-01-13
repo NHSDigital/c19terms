@@ -109,7 +109,7 @@ def build_terms(base_dir):
 
             if product_type == 'AMP':
                 if amp is not None:
-                    raise ValueError(f'VPM already assigned {snomed_code} {products_file}')
+                    raise ValueError(f'APM already assigned {snomed_code} {products_file}')
                 amp = product
 
             product_set[snomed_code] = {

@@ -1,0 +1,26 @@
+{
+  "name": {
+    "display": "Sinopharm",
+    "eu": {
+      "display": "WIBP-CorV",
+      "code": "WIBP-CorV"
+    }
+  },
+  "manufacturer": {
+    "display": "Sinopharm",
+    "eu": {
+      "code": "Sinopharm-WIBP",
+      "display": "Sinopharm - Wuhan Institute of Biological Products"
+    }
+  },
+  "prophylaxis": {
+    "code": "J07BX03",
+    "display": "Covid-19 Vaccines"
+  },
+  "products": [
+    {"code": "40335511000001101", "term": "Generic COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection pre-filled syringes", "type": "VMP"},
+    {"code": "40331911000001106", "term": "COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection pre-filled syringes (Beijing Institute of Biological Products)", "type": "AMP"},
+    {"code": "40331811000001101", "term": "Generic COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection pre-filled syringes 1 dose", "type": "VMPP"},
+    {"code": "40332011000001104", "term": "COVID-19 Vaccine Sinopharm BIBP (inactivated adjuvanted) 6.5U/0.5ml dose suspension for injection pre-filled syringes (Beijing Institute of Biological Products) 1 dose", "type": "AMPP"}
+  ]
+}
