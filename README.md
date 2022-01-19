@@ -10,35 +10,42 @@ json covid snomed codes from "COVID-19 Vaccination Codes"
 ensure to use `curl -L` to follow redirects
 ```bash
 
-curl -sL "https://github.com/NHSDigital/c19terms/releases/download/$(curl -sL -H 'accept: application/json' https://github.com/NHSDigital/c19terms/releases/latest | jq -r '.tag_name')/terms.json"
+curl -sL $(curl -s https://api.github.com/repos/NHSDigital/c19terms/releases/latest \
+| jq -r '.assets[] | select(.name="terms.json") | .browser_download_url')
 ```
 
 ## wget
 ```bash
 
-wget "https://github.com/NHSDigital/c19terms/releases/download/$(curl -sL -H 'accept: application/json' https://github.com/NHSDigital/c19terms/releases/latest | jq -r '.tag_name')/terms.json"
+wget $(curl -s https://api.github.com/repos/NHSDigital/c19terms/releases/latest \
+| jq -r '.assets[] | select(.name="terms.json") | .browser_download_url')
 ```
 
 ## python
 ```python
 import requests
 
-repo_uri = "https://github.com/NHSDigital/c19terms"
-latest_tag =  (
-    requests.get(
-        url=f"{repo_uri}/releases/latest", 
-        headers={"accept": "application/json"}
+terms_asset = next(
+    filter(
+        (lambda asset: asset['name'] == 'terms.json'), 
+        requests.get(url="https://api.github.com/repos/NHSDigital/c19terms/releases/latest").json()['assets']
     )
-    .json()
-    ['tag_name']
 )
 
-terms = (
-    requests.get(
-        url=f"{repo_uri}/releases/download/{latest_tag}/terms.json"
-    )
-    .json()
-)
+terms = requests.get(url=terms_asset['browser_download_url']).json()
+
 
 ```
 
+# get product terms as a dictionary
+## build locally    
+```shell
+make dist products-as-dict
+```
+
+## read from latest release
+```shell
+curl -sL $(curl -s https://api.github.com/repos/NHSDigital/c19terms/releases/latest \
+| jq -r '.assets[] | select(.name="terms.json") | .browser_download_url') \
+| jq '[.products | to_entries[] | {key: .key, value: .value.term}] | from_entries'
+```
