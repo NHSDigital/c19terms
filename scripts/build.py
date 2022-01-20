@@ -14,7 +14,7 @@ def main(base_dir):
 
 
 def get_release_version():
-    version = f'{os.environ["RELEASE_VERSION"]}'
+    version = f'{os.environ.get("RELEASE_VERSION", "0.0.0")}'
     if not re.match(r'^\d+\.\d+\.\d+$', version):
         raise Exception(f'Invalid tag name {version}. Tag name must be: number.number.number')
     return version
