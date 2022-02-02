@@ -89,8 +89,9 @@ def build_terms(base_dir):
         with open(products_file, 'r') as f:
             products_and_manufacturer = json.load(f)
 
-        vmp = None
-        amp = None
+        vmp = products_and_manufacturer.get('override_vpm')
+        amp = products_and_manufacturer.get('override_amp')
+
         manufacturer = products_and_manufacturer['manufacturer']
         name = products_and_manufacturer['name']
         product_set = {}
@@ -105,12 +106,12 @@ def build_terms(base_dir):
             if product_type == 'VMP':
                 if vmp is not None:
                     raise ValueError(f'VPM already assigned {snomed_code} {products_file}')
-                vmp = product
+                vmp = product['code']
 
             if product_type == 'AMP':
                 if amp is not None:
                     raise ValueError(f'APM already assigned {snomed_code} {products_file}')
-                amp = product
+                amp = product['code']
 
             product_set[snomed_code] = {
                 "name": name,
@@ -123,10 +124,10 @@ def build_terms(base_dir):
         for code, product in product_set.items():
 
             if product['type'] != "APM":
-                product["rels"].append({"type": "APM", "code": amp['code']})
+                product["rels"].append({"type": "APM", "code": amp})
 
             if product['type'] != "VMP":
-                product["rels"].append({"type": "VMP", "code": vmp['code']})
+                product["rels"].append({"type": "VMP", "code": vmp})
 
             products[code] = product
 

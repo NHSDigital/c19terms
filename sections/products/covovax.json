@@ -1,0 +1,26 @@
+{
+  "name": {
+    "display": "Covovax",
+    "eu": {
+      "display": "Covovax",
+      "code": "Covovax"
+    }
+  },
+  "manufacturer": {
+    "display": "Serum Institute Of India",
+    "eu": {
+      "code": "ORG-100001981",
+      "display": "Serum Institute Of India Private Limited"
+    }
+  },
+  "prophylaxis": {
+    "code": "J07BX03",
+    "display": "Covid-19 Vaccines"
+  },
+  "override_vpm": "39478211000001100",
+  "products": [
+    {"code": "40483211000001103", "term": "Generic COVID-19 Vaccine Novavax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials 500 dose", "type": "VMPP"},
+    {"code": "40483111000001109", "term": "COVID-19 Vaccine Covovax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Serum Institute of India)", "type": "AMP"},
+    {"code": "40483311000001106", "term": "COVID-19 Vaccine Covovax (adjuvanted) 5micrograms/0.5ml dose suspension for injection multidose vials (Serum Institute of India) 500 dose", "type": "AMPP"}
+  ]
+}
