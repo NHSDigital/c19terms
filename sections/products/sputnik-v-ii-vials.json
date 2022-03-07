@@ -19,8 +19,8 @@
   },
   "products": [
     {"code": "40388911000001109", "term": "Generic COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection vials", "type": "VMP"},
-    {"code": "40387111000001105", "term": "COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Gamaleya NRCEM)", "type": "AMP"},
+    {"code": "40387111000001105", "term": "COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection vials (Gamaleya NRCEM)", "type": "AMP"},
     {"code": "40387011000001109", "term": "Generic COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection vials 5 vial", "type": "VMPP"},
-    {"code": "40387211000001104", "term": "COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection multidose vials (Gamaleya NRCEM) 5 vial", "type": "AMPP"}
+    {"code": "40387211000001104", "term": "COVID-19 Vaccine Sputnik V Component II (recombinant serotype 5 adenoviral particles) 100,000,000,000 viral particles/0.5ml dose solution for injection vials (Gamaleya NRCEM) 5 vial", "type": "AMPP"}
   ]
 }
