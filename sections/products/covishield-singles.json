@@ -1,0 +1,26 @@
+{
+  "name": {
+    "display": "Covishield",
+    "eu": {
+      "display": "Covishield (ChAdOx1_n CoV-19)",
+      "code": "Covishield"
+    }
+  },
+  "manufacturer": {
+    "display": "Serum Institute Of India",
+    "eu": {
+      "code": "ORG-100001981",
+      "display": "Serum Institute Of India Private Limited"
+    }
+  },
+  "prophylaxis": {
+    "code": "J07BX03",
+    "display": "Covid-19 Vaccines"
+  },
+  "products": [
+    {"code": "40366411000001100", "term": "Generic COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection vials", "type": "VMP"},
+    {"code": "40362511000001102", "term": "COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection vials (Serum Institute of India)", "type": "AMP"},
+    {"code": "40362311000001108", "term": "Generic COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection vials 1 dose", "type": "VMPP"},
+    {"code": "40362611000001103", "term": "COVID-19 Vaccine Covishield (ChAdOx1 S [recombinant]) 5x10,000,000,000 viral particles/0.5ml dose solution for injection vials (Serum Institute of India) 1 dose", "type": "AMPP"}
+  ]
+}

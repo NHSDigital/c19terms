@@ -1,0 +1,18 @@
+{
+  "name": {
+    "display": "Moderna"
+  },
+  "manufacturer": {
+    "display": "Moderna, Inc",
+    "eu": {
+      "code": "ORG-100031184",
+      "display": "Moderna Biotech Spain S.L"
+    }
+  },
+  "products": [
+    {"code": "40658411000001104", "term": "Generic COVID-19 Vaccine Moderna (mRNA-1273.214) 50micrograms/0.5ml dose dispersion for injection vials ", "type": "VMP"},
+    {"code": "40658111000001109", "term": "COVID-19 Vaccine Moderna (mRNA-1273.214) 50micrograms/0.5ml dose dispersion for injection vials (Moderna, Inc)", "type": "AMP"},
+    {"code": "40657911000001106", "term": "Generic COVID-19 Vaccine Moderna (mRNA-1273.214 50micrograms/0.5ml dose dispersion for injection vials 1 dose", "type": "VMPP"},
+    {"code": "40658211000001103", "term": "COVID-19 Vaccine Moderna (mRNA-1273.214) 50micrograms/0.5ml dose dispersion for injection vials (Moderna, Inc) 1 dose", "type": "AMPP"}
+  ]
+}
