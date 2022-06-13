@@ -56,13 +56,6 @@ jobs:
           asset_name: terms.json
           asset_content_type: application/json
 
-      - name: publish npm package
-        run: |
-          cd npm
-          npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
       - name: publish pip package
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
@@ -70,3 +63,9 @@ jobs:
           password: ${{ secrets.PYPI_API_TOKEN }}
           packages_dir: pip/dist/
 
+      - name: publish npm package
+        run: |
+          cd npm
+          npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

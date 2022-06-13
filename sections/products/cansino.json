@@ -1,0 +1,26 @@
+{
+  "name": {
+    "display": "Convidecia",
+    "eu": {
+      "display": "Convidecia",
+      "code": "Convidecia"
+    }
+  },
+  "manufacturer": {
+    "display": "CanSino Biologics Inc",
+    "eu": {
+      "code": "ORG-100013793",
+      "display": "Cansino Biologics"
+    }
+  },
+  "prophylaxis": {
+    "code": "J07BX03",
+    "display": "Covid-19 Vaccines"
+  },
+  "products": [
+    {"code": "40713711000001104", "term": "Generic COVID-19 Vaccine Convidecia (Adenovirus Type 5 Vector [recombinant]) 40,000,000,000 viral particles/0.5ml dose solution for injection vials", "type": "VMP"},
+    {"code": "40712911000001109", "term": "COVID-19 Vaccine Convidecia (Adenovirus Type 5 Vector [recombinant]) 40,000,000,000 viral particles/0.5ml dose solution for injection vials (CanSino Biologics Inc)", "type": "AMP"},
+    {"code": "40712711000001107", "term": "Generic COVID-19 Vaccine Convidecia (Adenovirus Type 5 Vector [recombinant]) 40,000,000,000 viral particles/0.5ml dose solution for injection vials 1 dose", "type": "VMPP"},
+    {"code": "40713011000001101", "term": "COVID-19 Vaccine Convidecia (Adenovirus Type 5 Vector [recombinant]) 40,000,000,000 viral particles/0.5ml dose solution for injection vials 1 dose (CanSino Biologics Inc)", "type": "AMPP"}
+  ]
+}
