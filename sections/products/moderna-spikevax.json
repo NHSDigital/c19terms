@@ -1,0 +1,32 @@
+{
+  "name": {
+    "display": "Spikevax",
+    "eu": {
+      "display": "COVID-19 Vaccine Moderna",
+      "code": "EU/1/20/1507"
+    }
+  },
+  "manufacturer": {
+    "display": "Moderna, Inc",
+    "eu": {
+      "code": "ORG-100031184",
+      "display": "Moderna Biotech Spain S.L"
+    }
+  },
+  "prophylaxis": {
+    "code": "1119349007",
+    "display": "SARS Cov-2 mRNA Vaccine"
+  },
+  "products": [
+    {"code": "40813111000001102", "term": "Generic COVID-19 Vaccine Spikevax 0 (Zero)/O (Omicron) 0.1mg/ml dispersion for injection multidose vials", "type": "VMP"},
+    {"code": "40801911000001102", "term": "COVID-19 Vaccine Spikevax 0 (Zero)/O (Omicron) 0.1mg/ml dispersion for injection multidose vials (Moderna, Inc)", "type": "AMP"},
+    {"code": "40801611000001108", "term": "Generic COVID-19 Vaccine Spikevax 0 (Zero)/O (Omicron) 0.1mg/ml dispersion for injection multidose vials 2.5ml", "type": "VMPP"},
+    {"code": "40803411000001109", "term": "Generic COVID-19 Vaccine Spikevax 0 (Zero)/O (Omicron) 0.1mg/ml dispersion for injection multidose vials 5ml", "type": "VMPP"},
+    {"code": "40801811000001107", "term": "Generic COVID-19 Vaccine Spikevax 0 (Zero)/O (Omicron) 0.1mg/ml dispersion for injection multidose vials 25ml (10 x 2.5ml vials)", "type": "VMPP"},
+    {"code": "40803511000001108", "term": "Generic COVID-19 Vaccine Spikevax 0 (Zero)/O (Omicron) 0.1mg/ml dispersion for injection multidose vials 50ml (10 x 5ml vials)", "type": "VMPP"},
+    {"code": "40803811000001106", "term": "COVID-19 Vaccine Spikevax 0 (Zero)/O (Omicron) 0.1mg/ml dispersion for injection multidose vials (Moderna, Inc) 2.5ml", "type": "AMPP"},
+    {"code": "40804011000001103", "term": "COVID-19 Vaccine Spikevax 0 (Zero)/O (Omicron) 0.1mg/ml dispersion for injection multidose vials (Moderna, Inc) 5ml", "type": "AMPP"},
+    {"code": "40804311000001100", "term": "COVID-19 Vaccine Spikevax 0 (Zero)/O (Omicron) 0.1mg/ml dispersion for injection multidose vials (Moderna, Inc) 25ml (10 x 2.5ml vials)", "type": "AMPP"},
+    {"code": "40804411000001107", "term": "COVID-19 Vaccine Spikevax 0 (Zero)/O (Omicron) 0.1mg/ml dispersion for injection multidose vials (Moderna, Inc) 50ml (10 x 5ml vials)", "type": "AMPP"}
+  ]
+}
