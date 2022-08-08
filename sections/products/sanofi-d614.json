@@ -1,0 +1,26 @@
+{
+  "name": {
+    "display": "Sanofi",
+    "eu": {
+      "display": "Vidprevtyn",
+      "code": "Vidprevtyn"
+    }
+  },
+  "manufacturer": {
+    "display": "Sanofi Pasteur",
+    "eu": {
+      "code": "ORG-100000788",
+      "display": "Sanofi Pasteur"
+    }
+  },
+  "prophylaxis": {
+    "code": "J07BX03",
+    "display": "Covid-19 Vaccines"
+  },
+  "products": [
+    {"code": "40872611000001106", "term": "Generic COVID-19 Vaccine Sanofi (CoV2 preS dTM bivalent D614+B.1.351 [recombinant adjuvanted]) 2.5micrograms/2.5micrograms/0.5ml dose emulsion for injection multidose vials", "type": "VMP"},
+    {"code": "40872311000001101", "term": "COVID-19 Vaccine Sanofi (CoV2 preS dTM bivalent D614+B.1.351 [recombinant adjuvanted]) 2.5micrograms/2.5micrograms/0.5ml dose emulsion for injection multidose vials (Sanofi Pasteur)", "type": "AMP"},
+    {"code": "40872211000001109", "term": "Generic COVID-19 Vaccine Sanofi (CoV2 preS dTM bivalent D614+B.1.351 [recombinant adjuvanted]) 2.5micrograms/2.5micrograms/0.5ml emulsion for injection multidose vials 10 dose", "type": "VMPP"},
+    {"code": "40872411000001108", "term": "COVID-19 Vaccine Sanofi (CoV2 preS dTM bivalent D614+B.1.351 [recombinant adjuvanted]) 2.5micrograms/2.5micrograms/0.5ml dose emulsion for injection multidose vials (Sanofi Pasteur) 10 dose", "type": "AMPP"}
+  ]
+}
