@@ -2,14 +2,15 @@
   "name": {
     "display": "Valneva",
     "eu": {
-      "display": "Vaccine Trial"
+      "display": "VLA2001",
+      "code": "VLA2001"
     }
   },
   "manufacturer": {
     "display": "Valneva UK Ltd",
     "eu": {
-      "code": "ORG-100002068",
-      "display": "Valneva Sweden AB"
+      "code": "ORG-100036422",
+      "display": "Valneva France"
     }
   },
   "prophylaxis": {
