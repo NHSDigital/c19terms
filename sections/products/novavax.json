@@ -2,7 +2,8 @@
   "name": {
     "display": "Nuvaxovid",
     "eu": {
-      "display": "Vaccine Trial"
+      "display": "Nuvaxovid",
+      "code": "EU/1/21/1618"
     }
   },
   "manufacturer": {
