@@ -1,0 +1,28 @@
+{
+  "name": {
+    "display": "Spikevax",
+    "eu": {
+      "display": "Spikevax",
+      "code": "EU/1/20/1507"
+    }
+  },
+  "manufacturer": {
+    "display": "Moderna, Inc",
+    "eu": {
+      "code": "ORG-100031184",
+      "display": "Moderna Biotech Spain S.L"
+    }
+  },
+  "prophylaxis": {
+    "code": "1119349007",
+    "display": "SARS Cov-2 mRNA Vaccine"
+  },
+  "products": [
+    {"code": "41344311000001100", "term": "Generic COVID-19 Vaccine Spikevax Original/Omicron BA.4/BA.5 dispersion for injection 0.1mg/ml multidose vials", "type": "VMP"},
+    {"code": "41343811000001106", "term": "COVID-19 Vaccine Spikevax Original/Omicron BA.4/BA.5 dispersion for injection 0.1mg/ml multidose vials (Moderna, Inc)", "type": "AMP"},
+    {"code": "41343611000001107", "term": "Generic COVID-19 Vaccine Spikevax Original/Omicron BA.4/BA.5 dispersion for injection 0.1mg/ml multidose vials 2.5ml", "type": "VMPP"},
+    {"code": "41343711000001103", "term": "Generic COVID-19 Vaccine Spikevax Original/Omicron BA.4/BA.5 dispersion for injection 0.1mg/ml multidose vials 25ml (10 x 2.5ml vials)", "type": "VMPP"},
+    {"code": "41343911000001101", "term": "COVID-19 Vaccine Spikevax Original/Omicron BA.4/BA.5 dispersion for injection 0.1mg/ml multidose vials (Moderna, Inc) 2.5ml", "type": "AMPP"},
+    {"code": "41344011000001103", "term": "COVID-19 Vaccine Spikevax Original/Omicron BA.4/BA.5 dispersion for injection 0.1mg/ml multidose vials (Moderna, Inc) 25ml (10 x 2.5ml vials)", "type": "AMPP"}
+  ]
+}
