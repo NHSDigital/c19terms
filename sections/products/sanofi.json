@@ -18,9 +18,9 @@
     "display": "Covid-19 Vaccines"
   },
   "products": [
-    {"code": "40506711000001109", "term": "Generic COVID-19 Vaccine Sanofi (CoV2 preS dTM monovalent D614 [recombinant]) 5micrograms/0.5ml dose suspension for injection multidose vials", "type": "VMP"},
-    {"code": "40506311000001105", "term": "COVID-19 Vaccine Sanofi (CoV2 preS dTM monovalent D614 [recombinant]) 5mcg/0.5ml dose suspension for injection multidose vials (Sanofi Pasteur)", "type": "AMP"},
-    {"code": "40506211000001102", "term": "Generic COVID-19 Vaccine Sanofi (CoV2 preS dTM monovalent D614 [recombinant]) 5micrograms/0.5ml dose suspension for injection multidose vials 10 dose", "type": "VMPP"},
-    {"code": "40506411000001103", "term": "COVID-19 Vaccine Sanofi (CoV2 preS dTM monovalent D614 [recombinant]) 5mcg/0.5ml dose suspension for injection multidose vials (Sanofi Pasteur) 10 dose", "type": "AMPP"}
+    {"code": "40506711000001109", "term": "Generic COVID-19 Vaccine VidPrevtyn Beta (CoV2 preS dTM monovalent D614 [recombinant]) 5micrograms/0.5ml dose suspension for injection multidose vials", "type": "VMP"},
+    {"code": "40506311000001105", "term": "COVID-19 Vaccine VidPrevtyn Beta (CoV2 preS dTM monovalent D614 [recombinant]) 5mcg/0.5ml dose suspension for injection multidose vials (Sanofi Pasteur)", "type": "AMP"},
+    {"code": "40506211000001102", "term": "Generic COVID-19 Vaccine VidPrevtyn Beta (CoV2 preS dTM monovalent D614 [recombinant]) 5micrograms/0.5ml dose suspension for injection multidose vials 10 dose", "type": "VMPP"},
+    {"code": "40506411000001103", "term": "COVID-19 Vaccine VidPrevtyn Beta (CoV2 preS dTM monovalent D614 [recombinant]) 5mcg/0.5ml dose suspension for injection multidose vials (Sanofi Pasteur) 10 dose", "type": "AMPP"}
   ]
 }
