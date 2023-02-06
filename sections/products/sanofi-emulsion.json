@@ -18,9 +18,9 @@
     "display": "Covid-19 Vaccines"
   },
   "products": [
-    {"code": "40872511000001107", "term": "Generic COVID-19 Vaccine VidPrevtyn Beta (CoV2 preS dTM monovalent B.1.351 [recombinant adjuvanted]) 5micrograms/0.5ml dose emulsion for injection multidose vials", "type": "VMP"},
-    {"code": "40872011000001104", "term": "COVID-19 Vaccine VidPrevtyn Beta (CoV2 preS dTM monovalent B.1.351 [recombinant adjuvanted]) 5micrograms/0.5ml dose emulsion for injection multidose vials (Sanofi Pasteur)", "type": "AMP"},
-    {"code": "40871911000001106", "term": "Generic COVID-19 Vaccine VidPrevtyn Beta (CoV2 preS dTM monovalent B.1.351 [recombinant adjuvanted]) 5micrograms/0.5ml dose emulsion for injection multidose vials 10 dose", "type": "VMPP"},
-    {"code": "40872111000001103", "term": "COVID-19 Vaccine VidPrevtyn Beta (CoV2 preS dTM monovalent B.1.351 [recombinant adjuvanted]) 5micrograms/0.5ml dose emulsion for injection multidose vials (Sanofi Pasteur) 10 dose", "type": "AMPP"}
+    {"code": "40872511000001107", "term": "Generic COVID-19 Vaccine VidPrevtyn Beta (CoV2 preS dTM monovalent B.1.351 [recombinant adjuvanted]) 5micrograms/0.5ml dose solution and emulsion for emulsion for injection multidose vials", "type": "VMP"},
+    {"code": "40872011000001104", "term": "COVID-19 Vaccine VidPrevtyn Beta (CoV2 preS dTM monovalent B.1.351 [recombinant adjuvanted]) 5micrograms/0.5ml dose solution and emulsion for emulsion for injection multidose vials (Sanofi Pasteur)", "type": "AMP"},
+    {"code": "40871911000001106", "term": "Generic COVID-19 Vaccine VidPrevtyn Beta (CoV2 preS dTM monovalent B.1.351 [recombinant adjuvanted]) 5micrograms/0.5ml dose solution and emulsion for emulsion for injection multidose vials 10 dose", "type": "VMPP"},
+    {"code": "40872111000001103", "term": "COVID-19 Vaccine VidPrevtyn Beta (CoV2 preS dTM monovalent B.1.351 [recombinant adjuvanted]) 5micrograms/0.5ml dose solution and emulsion for emulsion for injection multidose vials (Sanofi Pasteur) 10 dose", "type": "AMPP"}
   ]
 }
