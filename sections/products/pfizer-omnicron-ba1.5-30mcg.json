@@ -1,0 +1,28 @@
+{
+  "name": {
+    "display": "Comirnaty",
+    "eu": {
+      "display": "Comirnaty",
+      "code": "EU/1/20/1528"
+    }
+  },
+  "manufacturer": {
+    "display": "Pfizer Ltd",
+    "eu": {
+      "code": "ORG-100030215",
+      "display": "Biontech Manafacturing GmbH"
+    }
+  },
+  "prophylaxis": {
+    "code": "1119349007",
+    "display": "SARS Cov-2 mRNA Vaccine"
+  },
+  "products": [
+    {"code": "42029211000001107", "term": "Generic Comirnaty Omicron XBB.1.5 COVID-19 mRNA Vaccine 30micrograms/0.3ml dose dispersion for injection multidose vials", "type": "VMP"},
+    {"code": "42020611000001103", "term": "Generic Comirnaty Omicron XBB.1.5 COVID-19 mRNA Vaccine 30micrograms/0.3ml dose dispersion for injection multidose vials 6 dose", "type": "VMPP"},
+    {"code": "42022811000001103", "term": "Generic Comirnaty Omicron XBB.1.5 COVID-19 mRNA Vaccine 30micrograms/0.3ml dose dispersion for injection multidose vials 60 dose", "type": "VMPP"},
+    {"code": "42020711000001107", "term": "Comirnaty Omicron XBB.1.5 COVID-19 mRNA Vaccine 30micrograms/0.3ml dose dispersion for injection multidose vials (Pfizer Ltd)", "type": "AMP"},
+    {"code": "42020811000001104", "term": "Comirnaty Omicron XBB.1.5 COVID-19 mRNA Vaccine 30micrograms/0.3ml dose dispersion for injection multidose vials (Pfizer Ltd) 6 dose", "type": "AMPP"},
+    {"code": "42022911000001108", "term": "Comirnaty Omicron XBB.1.5 COVID-19 mRNA Vaccine 30micrograms/0.3ml dose dispersion for injection multidose vials (Pfizer Ltd) 60 dose 10 x 6 doses", "type": "AMPP"}
+  ]
+}
