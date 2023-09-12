@@ -1,0 +1,28 @@
+{
+  "name": {
+    "display": "Comirnaty",
+    "eu": {
+      "display": "Comirnaty",
+      "code": "EU/1/20/1528"
+    }
+  },
+  "manufacturer": {
+    "display": "Pfizer Ltd",
+    "eu": {
+      "code": "ORG-100030215",
+      "display": "Biontech Manafacturing GmbH"
+    }
+  },
+  "prophylaxis": {
+    "code": "1119349007",
+    "display": "SARS Cov-2 mRNA Vaccine"
+  },
+  "products": [
+    {"code": "42118211000001100", "term": "Generic Comirnaty XBB.1.5 Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.3ml dose dispersion for injection multidose vials", "type": "VMP"},
+    {"code": "42097811000001107", "term": "Generic Comirnaty XBB.1.5 Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.3ml dose dispersion for injection multidose vials 6 dose", "type": "VMPP"},
+    {"code": "42097911000001102", "term": "Generic Comirnaty XBB.1.5 Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.3ml dose dispersion for injection multidose vials 60 dose", "type": "VMPP"},
+    {"code": "42098011000001100", "term": "Comirnaty XBB.1.5 Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.3ml dose dispersion for injection multidose vials (Pfizer Ltd)", "type": "AMP"},
+    {"code": "42098111000001104", "term": "Comirnaty XBB.1.5 Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.3ml dose dispersion for injection multidose vials (Pfizer Ltd) 6 dose", "type": "AMPP"},
+    {"code": "42098211000001105", "term": "Comirnaty XBB.1.5 Children 5-11 years COVID-19 mRNA Vaccine 10micrograms/0.3ml dose dispersion for injection multidose vials (Pfizer Ltd) 60 dose", "type": "AMPP"}
+  ]
+}
