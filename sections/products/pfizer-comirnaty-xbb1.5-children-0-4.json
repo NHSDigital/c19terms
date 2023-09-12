@@ -1,0 +1,28 @@
+{
+  "name": {
+    "display": "Comirnaty",
+    "eu": {
+      "display": "Comirnaty",
+      "code": "EU/1/20/1528"
+    }
+  },
+  "manufacturer": {
+    "display": "Pfizer Ltd",
+    "eu": {
+      "code": "ORG-100030215",
+      "display": "Biontech Manafacturing GmbH"
+    }
+  },
+  "prophylaxis": {
+    "code": "1119349007",
+    "display": "SARS Cov-2 mRNA Vaccine"
+  },
+  "products": [
+    {"code": "42118311000001108", "term": "Generic Comirnaty XBB.1.5 Children 6 months - 4 years COVID-19 mRNA Vaccine 3micrograms/0.2ml dose concentrate for dispersion for injection multidose vials", "type": "VMP"},
+    {"code": "42098611000001107", "term": "Generic Comirnaty XBB.1.5 Children 6 months - 4 years COVID-19 mRNA Vaccine 3micrograms/0.2ml dose concentrate for dispersion for injection multidose vials 10 dose", "type": "VMPP"},
+    {"code": "42098711000001103", "term": "Generic Comirnaty XBB.1.5 Children 6 months - 4 years COVID-19 mRNA Vaccine 3micrograms/0.2ml dose concentrate for dispersion for injection multidose vials 100 dose", "type": "VMPP"},
+    {"code": "42098911000001101", "term": "Comirnaty XBB.1.5 Children 6 months - 4 years COVID-19 mRNA Vaccine 3micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd)", "type": "AMP"},
+    {"code": "42099011000001105", "term": "Comirnaty XBB.1.5 Children 6 months - 4 years COVID-19 mRNA Vaccine 3micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd) 10 dose", "type": "AMPP"},
+    {"code": "42099111000001106", "term": "Comirnaty XBB.1.5 Children 6 months - 4 years COVID-19 mRNA Vaccine 3micrograms/0.2ml dose concentrate for dispersion for injection multidose vials (Pfizer Ltd) 100 dose", "type": "AMPP"}
+  ]
+}
